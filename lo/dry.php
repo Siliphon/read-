@@ -11,12 +11,12 @@ $account_balance = "ຍອດເງິນຄົງເຫຼືອໃນບັນ
 $account_number = "ເລກບັນຊີ";
 $bank = "ທະນາຄານ";
 $bank_name = "ຊື່ທະນາຄານ";
-$bank_account_name = "ຊື່ບັນຊິທະນາຄານ";
-$bank_account_number = "ເລກບັນຊິທະນາຄານ";
+$bank_account_name = "ຊື່ບັນຊີທະນາຄານ";
+$bank_account_number = "ເລກບັນຊີທະນາຄານ";
 
 // promotions
-$promotion = "ໂປຣໂມຊັນ";
-$promotion_list = "ລາຍການໂປຣໂມຊັນ";
+$promotion = "ໂປຣໂມຊັ້ນ";
+$promotion_list = "ລາຍການໂປຣໂມຊັ້ນ";
 
 //bonus
 $bonus = "ລາງວັນ";
