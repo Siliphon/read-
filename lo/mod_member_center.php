@@ -1,0 +1,22 @@
+<?php
+$lang = [
+    'Account Balance' => 'ເງິນຄົງເຫຼືອໃນບັນຊີ',
+    'Basic Information' => 'ຂໍ້ມູນພື້ນຖານ',
+    'Bet Reports' => 'ລາຍງານພະນັນ',
+    'Bonus' => 'ລາງວັນ',
+    'Change Password' => 'ປ່ຽນລະຫັດຜ່ານ',
+    'Deposit' => 'ຝາກເງິນມັດຈຳ',
+    'Last Bonus' => 'ລາງວັນຫຼ້າສຸດ',
+    'Member Center' => 'ສູນສະມາຊິກ',
+    'Messages' => 'ຂໍ້ຄວາມ',
+    'Referral Lists' => 'ລາຍການອ້າງອີງ',
+    'Statements' => 'ໃບລາຍງານ',
+    'Total Bonus' => 'ລາງວັນລວມ',
+    'Transfer' => 'ໂອນ',
+    'Turnover Checking' => 'ກວດສອບຜົນໄດັຮັບ',
+    'Withdrawal' => 'ຖອນເງິນ',
+    'Achievement' => 'ຜົນສຳເລັດ',
+    'Achievement Report' => 'ບົດລາຍງານຜົນສໍາເລັດ',
+    'Logout' => 'ອອກ​ຈາກ​ລະ​ບົບ',
+    'Referral' => 'ການອ້າງອີງ',
+];

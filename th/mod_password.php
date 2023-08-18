@@ -1,0 +1,22 @@
+<?php
+$lang = [
+    'Account Balance' => 'ยอดเงิน',
+    'Change password' => 'เปลี่ยนรหัสผ่าน',
+    'Confirm New Password' => 'ยืนยันรหัสผ่านใหม่',
+    'Confirm password' => 'ยืนยันรหัสผ่าน',
+    'Current Password' => 'รหัสผ่านปัจจุบัน',
+    'Failure' => 'แก้ไขล้มเหลว!',
+    'Field confirm password cannot empty!' => 'ข้อมูลรหัสผ่านยืนยันไม่สามารถว่างเปล่า!',
+    'Field new password cannot empty!' => 'ข้อมูลรหัสผ่านใหม่ไม่สามารถว่างเปล่า!',
+    'Field old password cannot empty!' => 'ข้อมูลรหัสผ่านเดิมไม่สามารถว่างเปล่า!',
+    'Last Bonus' => 'โบนัสล่าสุด',
+    'Member Center' => 'ศุนย์สมาชิก',
+    'Minimum, 6 digit, Alphabet and Number' => 'ขั้นต่ำ 6 ตัว, ตัวอักษรและตัวเลข',
+    'New Password' => 'รหัสผ่านใหม่',
+    'New password and confirm password not the same!' => 'รหัสผ่านใหม่กับรหัสผ่านยืนยันไม่เหมือนกัน!',
+    'Submit' => 'ยืนยัน',
+    'Success' => 'แก้ไขสำเร็จ!',
+    'Total Bonus' => 'โบนัสรวม',
+    'User Name' => 'ชื่อผู้ใช้',
+    'pwdformule' => 'รหัสผ่านต้องมี: ตัวอักษรและตัวเลขความยาว 8-20!',
+];
