@@ -3,11 +3,11 @@ include 'dry.php';
 
 $lang = [
     'Main Balance' => 'ເງິນຄົງເຫຼືອຫຼັກ',
-    'Game Balance' => 'ເງິນຄົງເຫຼືອເກມ',
-    'Total Bonus' => 'ລາງວັນລວມ',
-    'Last Bonus' => 'ລາງວັນຫຼ້າສຸດ',
+    'Game Balance' => 'ເງິນຄົງເຫຼືອໃນເກມ',
+    'Total Bonus' => $total_bonus,
+    'Last Bonus' => $last_bonus,
     'Account Balance' => $account_balance,
-    'Amount' => 'ຈຳນວນ',
+    'Amount' => $amount,
     'Balance' => 'ເງິນຄົງເຫຼືອ',
     'Buy In' => 'ຊື້ເຂົ້າ',
     'Buy Out' => 'ຊຶ້ອອກ',

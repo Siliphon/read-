@@ -19,17 +19,22 @@ $promotion = "ໂປຣໂມຊັນ";
 $promotion_list = "ລາຍການໂປຣໂມຊັນ";
 
 //bonus
-$bonus = "ຂອງລາງວັນ";
-$last_bonus = "ຂອງລາງວັນລ່າສຸດ";
-$transfer_bonus = "ໂອນຂອງລາງວັນ";
-$total_bonus = "ຂອງລາງວັນທັງໝົດ";
-$apply_for_bonus_list = "ລົງທະບຽນລາຍການຂອງລາວວັນ";
-$update_bonus = "ອັບເດດຂອງລາວວັນ";
-$bonus_list = "ລາຍການຂອງລາວວັນ";
-$bonus_type = "ປະເພດຂອງລາງວັນ";
+$bonus = "ລາງວັນ";
+$last_bonus = "ລາງວັນລ່າສຸດ";
+$transfer_bonus = "ໂອນລາງວັນ";
+$total_bonus = "ລາງວັນທັງໝົດ";
+$apply_for_bonus_list = "ຂໍລາຍການລາງວັນ";
+$update_bonus = "ອັບເດດລາງວັນ";
+$bonus_list = "ລາຍການລາງວັນ";
+$bonus_type = "ປະເພດລາງວັນ";
 
 //code
 $code = "ລະຫັດ";
 
 //game
+$casino = "ຄາສິໂນ";
+$live_casino = "ຄາສິໂນສົດ";
 $tie = "ສະເໝີ";
+
+//notification
+$for_secure_property = "ເພື່ອຄວາມປອດໄພຂອງຊັບສິນ, ຈະໃຫ້ການສະນັບສະໜຸນເມື່ອຄຳທີ່ລະບຸມາດັ່ງກ່າວກ່ຽວຂ້ອງກັບບັນຊີ່ທີ່ລົງທະບຽນແລ້ວເທົ່ານັ້ນ.";

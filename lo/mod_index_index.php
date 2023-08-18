@@ -3,14 +3,14 @@ include 'dry.php';
 
 $lang_index = [
     'Affiliate' => 'ສາຂາ',
-    'Casino' => 'ກາຊີໂນສົດ',
+    'Casino' => $casino,
     'Cockfight' => 'ໄກ່ຕີ',
     'Contact Us' => 'ຕິດຕໍ ພວກເຮົາ',
     'Fishing' => 'ການຫາປາ',
     'Forex' => 'ໂຟເຣັກ',
     'Game' => 'ເກມ',
     'Keno' => 'ຄີໂນ',
-    'Live Casino' => 'ຄາສິໂນສົດ',
+    'Live Casino' => @$live_casino,
     'Lottery' => 'ຫວຍ',
     'Number' => 'ເກມ ຕົວເລກ',
     'Poker' => 'ໂປກເກີ',
