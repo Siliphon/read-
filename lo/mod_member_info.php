@@ -1,7 +1,9 @@
 <?php
+include 'dry.php';
+
 $lang = [
     'Account' => 'ບັນຊີ',
-    'Account Balance' => 'ຍອດເງິນຄົງເຫຼືອ',
+    'Account Balance' => $account_balance,
     'All Refs' => 'ລາຍການອ້າງອີງ',
     'Apply For Bonus List' => 'ຂໍລາຍການລາງວັນ',
     'Basic Information' => 'ຂໍ້ມູນພື້ນຖານ',
@@ -24,9 +26,9 @@ $lang = [
     'Account Information' => 'ຂໍ້ມູນບັນຊີ',
     'Account Name' => 'ຊື່ບັນຊີ',
     'Address' => 'ທີ່ຢູ່',
-    'Bank Account Name' => 'ຊື່ບັນຊີທະນາຄານ',
-    'Bank Account Number' => 'ເລກບັນຊີທະນາຄານ',
-    'Bank Name' => 'ຊື່ທະນາຄານ',
+    'Bank Account Name' => $bank_account_name,
+    'Bank Account Number' => $bank_account_number,
+    'Bank Name' => $bank_name,
     'Contact Number' => 'ຕົວເລກຕິດຕໍ່',
     'Currency' => 'ສະກຸນເງິນ',
     'Female' => 'ເພດຍິງ',

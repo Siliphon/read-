@@ -1,9 +1,11 @@
 <?php
+include 'dry.php';
+
 $lang = [
-    'Account Balance' => 'ເງິນຄົງເຫຼືອ',
-    'Amount' => 'ຈຳນວນ',
+    'Account Balance' => $account_balance,
+    'Amount' => $amount,
     'Balance' => 'ຍອດເງິນຄົງເຫຼືອ',
-    'Bonus' => 'ລາງວັນ',
+    'Bonus' => $bonus,
     'Cancel' => 'ຍົກເລີກ',
     'Confirm' => 'ຢືນຢັນ',
     'Field Amount cannot empty!' => 'ຊ່ອງບັນທຶກຈຳນວນບໍ່ສາມາດເປົ່າຫວ່າງ!',
@@ -12,7 +14,7 @@ $lang = [
     'IBC SPORTS(Balance)' => 'ຊາບາ ສະປອດ(ຍອດເງິນຄົງເຫຼືອ)',
     'IBC SPORTS(Pending)' => 'ຊາບາ ສະປອດ(ພວມລໍຖ້າ)',
     'Kaiyuan' => 'Kai Yuan',
-    'Last Bonus' => 'ລາງວັນຫຼ້າສຸດ',
+    'Last Bonus' => $last_bonus,
     'Main Account' => 'ບັນຊີຫຼັກ',
     'No record found!' => 'ບໍ່ມີບັນທຶກຖືກພົບເຫັນ!',
     'No.' => 'ເລກທີ.',
@@ -25,7 +27,7 @@ $lang = [
     'Success' => 'ສຳເລັດ',
     'Time' => 'ເວລາ',
     'To' => 'ຫາ',
-    'Total Bonus' => 'ລາງວັນລວມ',
+    'Total Bonus' => $total_bonus,
     'Transfer' => 'ໂອນ',
     'Transfer Amount should be less than' => 'ຈຳນວນໂອນຄວນໜ້ອຍກວ່າ ',
     'Transfer From' => 'ໂອນຈາກ',

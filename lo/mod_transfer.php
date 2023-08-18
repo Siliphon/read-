@@ -1,10 +1,12 @@
 <?php
+include 'dry.php';
+
 $lang = [
-    'Account Balance' => 'ເງິນຄົງເຫຼືອໃນບັນຊີ',
-    'Total Bonus' => 'ລາງວັນລວມ',
-    'Last Bonus' => 'ລາງວັນຫຼ້າສຸດ',
-    'Amount' => 'ຈຳນວນ',
-    'Bonus' => 'ລາງວັນ',
+    'Account Balance' => $account_balance,
+    'Total Bonus' => $total_bonus,
+    'Last Bonus' => $last_bonus,
+    'Amount' => $amount,
+    'Bonus' => $bonus,
     'Transfer To' => 'ໂອນຫາ',
     'Transfer From' => 'ໂອນຈາກ',
     'Transfer Successfully!' => 'ໂອນສຳເລັດ!',

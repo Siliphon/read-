@@ -1,4 +1,6 @@
 <?php
+include 'dry.php';
+
 $lang1 = [
     'center_record_forex' => 'ບັນທຶກລາຍງານ',
     'center_statements_mg' => 'ບັນທຶກລາຍງານ',
@@ -15,7 +17,7 @@ $lang1 = [
     'number_lobby' => 'ຫ້ອງພັກ ກຶມມຸ',
     'lott_list' => 'ລາຍການຫວຍ',
     'center' => 'ສູນສະມາຊິກ',
-    'promotion' => 'ໂປຣໂມຊັນ',
+    'promotion' => $promotion,
     'keno_game' => 'ຫ້ອງພັກຄີໂນ',
     'keno_china' => 'ຄີໂນ ຈີນ',
     'keno_cambodia' => 'ຄີໂນ ກຳປູເຈຍ',

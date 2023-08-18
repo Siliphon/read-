@@ -1,10 +1,12 @@
 <?php
+include 'dry.php';
+
 $lang = [
     'Main Balance' => 'ເງິນຄົງເຫຼືອຫຼັກ',
     'Game Balance' => 'ເງິນຄົງເຫຼືອເກມ',
     'Total Bonus' => 'ລາງວັນລວມ',
     'Last Bonus' => 'ລາງວັນຫຼ້າສຸດ',
-    'Account Balance' => 'ເງິນຄົງເຫຼືອ',
+    'Account Balance' => $account_balance,
     'Amount' => 'ຈຳນວນ',
     'Balance' => 'ເງິນຄົງເຫຼືອ',
     'Buy In' => 'ຊື້ເຂົ້າ',

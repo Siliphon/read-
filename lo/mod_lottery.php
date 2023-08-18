@@ -1,4 +1,6 @@
 <?php
+include 'dry.php';
+
 $lang = [
     'Bet Success' => 'ພະນັນສຳເລັດ',
     'Wrong Infomation' => 'ຂໍ້ມູນຜິດພາດ',
@@ -82,7 +84,7 @@ $lang = [
     'Table ID' => 'ລະຫັດໂຕະ',
     'Bet Amount' => 'ຈຳນວນພະນັນ',
     'Discount' => 'ສ່ວນຫຼຸດ',
-    'Amount' => 'ຈຳນວນ',
+    'Amount' => $amount,
     'Net Amount' => 'ຈຳນວນສຸດທິ',
     'Total Amount' => 'ຈຳນວນລວມ',
     'Total Net Amount' => 'ຈຳນວນສຸດທິລວມ',
@@ -92,7 +94,7 @@ $lang = [
     'Period' => 'ໄລຍະ',
     'Factor' => 'ຄີກ',
     'Draw' => 'ຖອນ',
-    'Live Draw' => 'ຖອນສົດ',
+    'Live Draw' => 'ຖອນຕອນນີ້',
     'Draw Time' => 'ເວລາຖອນ',
     'Bet ID' => 'ລະຫັດ ພະນັນ',
     'Odds' => 'ຄີກ',

@@ -1,6 +1,8 @@
 <?php
+include 'dry.php';
+
 $lang = [
-    'Account Balance' => 'ຍອດເງິນຄົງເຫຼືອ',
+    'Account Balance' => $account_balance,
     'Change password' => 'ປ່ຽນລະຫັດຜ່ານ',
     'Confirm New Password' => 'ຢືນຢັນລະຫັດຜ່ານໃໝ່',
     'Confirm password' => 'ຢືນຢັນລະຫັດຜ່ານ',

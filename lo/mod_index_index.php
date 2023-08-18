@@ -1,4 +1,6 @@
 <?php
+include 'dry.php';
+
 $lang_index = [
     'Affiliate' => 'ສາຂາ',
     'Casino' => 'ກາຊີໂນສົດ',
@@ -12,7 +14,7 @@ $lang_index = [
     'Lottery' => 'ຫວຍ',
     'Number' => 'ເກມ ຕົວເລກ',
     'Poker' => 'ໂປກເກີ',
-    'Promotions' => 'ໂປຣໂມຊັນ',
+    'Promotions' => $promotion,
     'Slot' => 'ສະລັອດຕິງ',
     'Slots' => 'ຊາລັອດ',
     'Sports' => 'ສະປອດບຸກ',

@@ -1,6 +1,6 @@
 <?php
 $lang = [
-    'Account Balance' => 'ເງິນຄົງເຫຼືອໃນບັນຊີ',
+    'Account Balance' => $account_balance,
     'Basic Information' => 'ຂໍ້ມູນພື້ນຖານ',
     'Bet Reports' => 'ລາຍງານພະນັນ',
     'Bonus' => 'ລາງວັນ',

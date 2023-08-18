@@ -1,8 +1,10 @@
 <?php
+include 'dry.php';
+
 $lang = [
-    'Account Name' => 'ຊື່ບັນຊີ',
+    'Account Name' => $account_name,
     'Captcha not match' => 'Captcha ບໍ່ກົງກັນ',
-    'Code' => 'ລະຫັດ',
+    'Code' => $code,
     'Enter your username' => 'ໃສ່ຊື່ຜູ້ໃຊ້ຂອງທ່ານ',
     'Failed to Login!' => 'ບໍ່ສາມາດເຂົ້າລະບົບ!',
     'Forgot Password' => 'ລືມລະຫັດຜ່ານ',

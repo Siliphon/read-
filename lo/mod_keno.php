@@ -1,4 +1,6 @@
 <?php
+include 'dry.php';
+
 $lang = array(
 	'DRAW'=>'ຖອນ',
 	'LEFT TIME'=>'ເວລາຍັງເຫຼືອ',
@@ -57,7 +59,7 @@ $lang = array(
 	'Country/Area'=>'ປະເທດ/ພຶ້ນທີ່',
 	'Bet On'=>'ພະນັນນຳ',
 	'Rate'=>'ອັດຕາ',
-	'Amount'=>'ຈຳນວນ',
+	'Amount'=>$amount,
 	'Net Amount'=>'ຈຳນວນສຸດທິ',
 	'Submit'=>'ສົ່ງ',
 	'Cancel'=>'ຍົກເລີກ',
@@ -186,4 +188,3 @@ $lang = array(
 	'Transfer To'=>'ໂອນຫາ',
 	'Main Account'=>'ບັນຊີຫຼັກ',
 );
-?>

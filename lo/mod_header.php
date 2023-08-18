@@ -1,4 +1,6 @@
 <?php
+include 'dry.php';
+
 $lang0 = [
     'About Us' => 'ກ່ຽວກັບພວກເຮົາ',
     'Account' => 'ບັນຊີ',
@@ -32,7 +34,7 @@ $lang0 = [
     'POKER' => 'ໂປກເກີ',
     'Play Now' => 'ຫຼິ້ນດຽວນີ້',
     'Privacy Policy' => 'ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ',
-    'Promotion' => 'ໂປຣໂມຊັນ',
+    'Promotion' => $promotion,
     'Register' => 'ລົງທະບຽນ',
     'Slot' => 'ສະລັອດຕິງ',
     'Sports' => 'ກິລາ',

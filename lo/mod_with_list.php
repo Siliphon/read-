@@ -1,15 +1,17 @@
 <?php
+include 'dry.php';
+
 $lang = [
-    'Account Balance' => 'ເງິນຄົງເຫຼືອ',
-    'Amount' => 'ຈຳນວນ',
+    'Account Balance' => $account_balance,
+    'Amount' => $amount,
     'Be Closed' => 'ຖືກປິດ',
     'Date' => 'ວັນທີ & ເວລາ',
     'Delete' => 'ລຶບ',
     'Finish' => 'ສຳເລັດ',
-    'Fixed bank account' => 'ບັນຊີຄົງທີ່ທະນາຄານ',
+    'Fixed bank account' => 'ບັນຊີທະນາຄານຄົງທີ່',
     'For secure property, only supports when mention is bound to registered account.' => 'ເພື່ອຄວາມປອດໄພຂອງຊັບສິນ, ສະໜັບສະໜູນເມື່ອຄຳກ່າວ ກ່ຽວຂ້ອງກັບບັນຊີທີ່ໄດ້ລົງທະບຽນແລ້ວ ເທົ່ານັ້ນ.',
     'ID' => 'ລະຫັດ',
-    'Last Bonus' => 'ລາງວັນຫຼ້າສຸດ',
+    'Last Bonus' => $last_bonus,
     'Member Center' => 'ສູນສະມາຊິກ',
     'No' => 'ເລກທີ',
     'No record found!' => 'ບໍ່ພົບເຫັນບັນທຶກ!',
@@ -21,7 +23,7 @@ $lang = [
     'Status' => 'ສະຖານະ',
     'Submitting' => 'ກຳລັງສົ່ງ',
     'Time' => 'ເວລາ',
-    'Total Bonus' => 'ລາງວັນລວມ',
+    'Total Bonus' => $total_bonus,
     'Transaction Id' => 'ລະຫັດປະກອບທຸລະກຳ',
     'Type' => 'ຊະນິດ',
     'Withdraw' => 'ຖອນ',
